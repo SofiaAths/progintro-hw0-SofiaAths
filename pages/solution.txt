@@ -6,4 +6,5 @@ byte3: And all the men and women merely players;
        And all the men and women merely programmers;
 byte4: ./maze/left/right/8/cup.txt
 byte5: Usage: ./byte5_program <SDI>
+byte6: unzip byte6.zip
 
