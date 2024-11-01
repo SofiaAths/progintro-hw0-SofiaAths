@@ -7,4 +7,4 @@ byte3: And all the men and women merely players;
 byte4: ./maze/left/right/8/cup.txt
 byte5: Usage: ./byte5_program <SDI>
 byte6: unzip byte6.zip
-
+byte7: tar -xzvf byte7.tar.gz byte7.txt
