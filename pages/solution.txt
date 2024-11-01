@@ -12,3 +12,5 @@ byte8: xxd carriage_return.txt
 byte9: -bash: /home/byte9: Is a directory
 byte10: sort names.txt | head -n 10 | tail -n 1
         Adorne
+byte11: sort births.txt | uniq -c | sort -nr | head -n 1
+        9 Kelley
