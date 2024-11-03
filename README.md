@@ -23,16 +23,16 @@ gcc -O0 -m32 -Wall -Wextra -Werror -pedantic -o trolley trolley.c
 
 - Please enter the cost of going left: 10
 - Please enter the cost of going right: 100
-Go left.
+-     Go left.
 - Please enter the cost of going left: 41
 - Please enter the cost of going right: 42
-Go left.
+-   Go left.
 - Please enter the cost of going left: 42
 - Please enter the cost of going right: 41
-Go right.
+-   Go right.
 - Please enter the cost of going left: 1000000
 - Please enter the cost of going right: 1000000
-Go left.
+-   Go left.
 - Please enter the cost of going left: [EOF]
   
 Σε περίπτωση EOF, το πρόγραμμα τερματίζει με κωδικό εξόδου 0. Αν δοθεί μόνο το left_cost χωρίς το right_cost, τυπώνεται μήνυμα λάθους και το πρόγραμμα τερματίζει με κωδικό εξόδου 1.
