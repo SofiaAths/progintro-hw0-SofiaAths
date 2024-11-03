@@ -18,7 +18,7 @@ gcc -O0 -m32 -Wall -Wextra -Werror -pedantic -o trolley trolley.c
 Αυτό θα δημιουργήσει ένα εκτελέσιμο αρχείο trolley, το οποίο μπορείς να εκτελέσεις με την εντολή:
 ./trolley
 
-Παραδείγματα Χρήσης και Έξοδοι:
+## Παραδείγματα Χρήσης και Έξοδοι:
 ./trolley
 Please enter the cost of going left: 10
 Please enter the cost of going right: 100
