@@ -23,7 +23,7 @@ gcc -O0 -m32 -Wall -Wextra -Werror -pedantic -o trolley trolley.c
 
 - Please enter the cost of going left: 10
 - Please enter the cost of going right: 100
--     Go left.
+-   Go left.
 - Please enter the cost of going left: 41
 - Please enter the cost of going right: 42
 -   Go left.
