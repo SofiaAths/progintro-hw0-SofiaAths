@@ -1,3 +1,4 @@
+$ cat solution.txt
 byte0: i_wanna_be
 byte1: The output is not a manual page - look elsewhere
 byte2: grep "will find" *
@@ -13,4 +14,3 @@ byte10: sort names.txt | head -n 10 | tail -n 1
         Adorne
 byte11: sort births.txt | uniq -c | sort -nr | head -n 1
         9 Kelley
-
