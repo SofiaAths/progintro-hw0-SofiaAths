@@ -1,1 +1,16 @@
+byte0: i_wanna_be
+byte1: The output is not a manual page - look elsewhere
+byte2: grep "will find" *
+byte3: And all the men and women merely players;
+       And all the men and women merely programmers;
+byte4: ./maze/left/right/8/cup.txt
+byte5: Usage: ./byte5_program <SDI>
+byte6: unzip byte6.zip
+byte7: tar -xzvf byte7.tar.gz byte7.txt
+byte8: xxd carriage_return.txt
+byte9: -bash: /home/byte9: Is a directory
+byte10: sort names.txt | head -n 10 | tail -n 1
+        Adorne
+byte11: sort births.txt | uniq -c | sort -nr | head -n 1
+        9 Kelley
 
