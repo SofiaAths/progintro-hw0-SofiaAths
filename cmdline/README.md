@@ -6,7 +6,10 @@
 - Η απαντήση είναι: The output is not a manual page - look elsewhere
 - Πώς το βρήκα: Με την εντολή supercalifragilisticexpialidocious
 ## byte2: Τα Άπαντα του Shakespeare (grep): 
-- Απάντηση: Πάτησα την εντολή grep "will find" *  και μου εμφάνισε:He that sweetest rose will find
+Πάτησα την εντολή:
+-  grep "will find" *
+και μου εμφάνισε:
+- He that sweetest rose will find
     That draw his knives i' th' war. Well, I will find him;
     If circumstances lead me, I will find
     But I will find him when he lies asleep,
@@ -26,24 +29,33 @@ No one will find this: grep_is_your_friend
     will breed no terror in the youth: he will find it comes from a
     The crown will find an heir. Great Alexander
 ## byte3: Τα Άπαντα του Shakespeare Άλλαξαν (diff): 
-Χρησιμοποιήσα την εντολή diff shakespeare.txt shakespeare.modified.txt
-και η απάντηση ήταν αυτή: And all the men and women merely players;
-                           And all the men and women merely programmers;
+Χρησιμοποιήσα την εντολή: 
+- diff shakespeare.txt shakespeare.modified.txt
+και η απάντηση ήταν αυτή: 
+- And all the men and women merely players;
+- And all the men and women merely programmers;
 ## byte4: Λαβύρινθος (find): 
 Χρησιμοποιήσα την εντολή find . -name "cup.txt" και η απάντηση ήταν: ./maze/left/right/8/cup.txt
 ## byte5: Compile and Run (gcc): 
-Χρησιμοποιήσα τις εντολές mkdir /tmp/myfolder
-cp byte5.c /tmp/myfolder
-cd /tmp/myfolder
-gcc byte5.c -o byte5_program
-./byte5_program
-και η απάντηση ήταν:  Usage: ./byte5_program <SDI>
+Χρησιμοποιήσα τις εντολές: 
+- mkdir /tmp/myfolder
+- cp byte5.c /tmp/myfolder
+- cd /tmp/myfolder
+- gcc byte5.c -o byte5_program
+- ./byte5_program
+και η απάντηση ήταν:
+- Usage: ./byte5_program <SDI>
 ## byte6: Αποσυμπίεση αρχείου 1 (unzip): 
-Χρησιμοποιήσα την εντολή unzip byte6.zip
+Χρησιμοποιήσα την εντολή:
+- unzip byte6.zip
 ## byte7: Αποσυμπίεση αρχείου 2 (tar): 
-Χρησιμοποιήσα την εντολή tar -xzvf byte7.tar.gz byte7.txt
+Χρησιμοποιήσα την εντολή:
+- tar -xzvf byte7.tar.gz byte7.txt
 ## byte8: Carriage Return (xxd, pico, vim): 
-Χρησιμοποιήσα την εντολή xxd carriage_return.txt για η απάντηση ήταν 00000000: ffef bb20 6e6f 5f6d 6f72 655f 7365 6372  ... no_more_secr
+Χρησιμοποιήσα την εντολή:
+- xxd carriage_return.txt
+  και  η απάντηση ήταν: 
+00000000: ffef bb20 6e6f 5f6d 6f72 655f 7365 6372  ... no_more_secr
 00000010: 6574 735f 6672 6f6d 5f79 6f75 2020 2020  ets_from_you    
 00000020: 2020 2020 2020 2020 2020 2020 2020 2020                  
 00000030: 2020 2020 2020 2020 2020 2020 2020 2020                  
@@ -55,9 +67,18 @@ gcc byte5.c -o byte5_program
 00000090: 2020 2020 2020 2020 2020 2020 2020 2020                  
 000000a0: 2020 2020 200a 
 ## byte9: Ένα Περίεργο Όνομα (cat): 
-Χρησιμοποιήσα τις εντολές ls , /home/byte9 και η απάντηση ήταν: -bash: /home/byte9: Is a directory
+Χρησιμοποιήσα τις εντολές: 
+- ls
+-  /home/byte9
+  και η απάντηση ήταν:
+-  -bash: /home/byte9: Is a directory
 ## byte10: Το 10ο Όνομα (sort, head): 
-Χρησιμοποιήσα την εντολή: sort names.txt | head -n 10 | tail -n 1
-και η απάντηση ήταν: Adorne
+Χρησιμοποιήσα την εντολή: 
+- sort names.txt | head -n 10 | tail -n 1
+και η απάντηση ήταν:
+- Adorne
 ## byte11: Επιλογές Ονόματος (sort, uniq): 
-Χρησιμοποιήσα την εντολή: sort births.txt | uniq -c | sort -nr | head -n 1 και η απάντηση ήταν: 9 Kelley
+Χρησιμοποιήσα την εντολή:
+- sort births.txt | uniq -c | sort -nr | head -n 1
+  και η απάντηση ήταν:
+- 9 Kelley
