@@ -1,3 +1,5 @@
+## 3. Το Πρόβλημα του Τρόλεϊ (trolley - 50 Μονάδες)
+
 Αυτό το πρόγραμμα προσομοιώνει το ηθικό δίλημμα του τρόλεϊ για αυτόνομα οχήματα, επιλέγοντας την κατεύθυνση με το χαμηλότερο κόστος.
 
 ## Τεχνικές Προδιαγραφές
@@ -9,11 +11,13 @@
 
 ## Μεταγλώττιση
 
-Χρησιμοποιήστε την ακόλουθη εντολή για μεταγλώττιση:
-gcc -O0 -m32 -Wall -Wextra -Werror -pedantic -o trolley trolley.c
+Για μεταγλώττιση χρησιμοποιώ την ακόλουθη εντολή:
+
+- gcc -O0 -m32 -Wall -Wextra -Werror -pedantic -o trolley trolley.c
 
 Αυτό θα δημιουργήσει ένα εκτελέσιμο αρχείο trolley, το οποίο μπορείς να εκτελέσεις με την εντολή:
-./trolley
+
+- ./trolley
 
 ## Παραδείγματα Χρήσης και Έξοδοι:
 ./trolley
@@ -26,12 +30,11 @@ gcc -O0 -m32 -Wall -Wextra -Werror -pedantic -o trolley trolley.c
 -   Go left.
 - Please enter the cost of going left: 42
 - Please enter the cost of going right: 41
-- Go right.
+-   Go right.
 - Please enter the cost of going left: 1000000
 - Please enter the cost of going right: 1000000
-- Go left.
+-   Go left.
 - Please enter the cost of going left: [EOF]
-
 
 - linux10:/home/users/sdi2100283>./trolley
 - Please enter the cost of going left: 42
