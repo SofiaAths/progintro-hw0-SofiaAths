@@ -11,7 +11,7 @@
 Πάτησα την εντολή:
 -  grep "will find" *
 και μου εμφάνισε:
-- He that sweetest rose will find
+-    He that sweetest rose will find
     That draw his knives i' th' war. Well, I will find him;
     If circumstances lead me, I will find
     But I will find him when he lies asleep,
@@ -57,7 +57,7 @@ No one will find this: grep_is_your_friend
 Χρησιμοποιήσα την εντολή:
 - xxd carriage_return.txt
   και  η απάντηση ήταν: 
-00000000: ffef bb20 6e6f 5f6d 6f72 655f 7365 6372  ... no_more_secr
+- 00000000: ffef bb20 6e6f 5f6d 6f72 655f 7365 6372  ... no_more_secr
 00000010: 6574 735f 6672 6f6d 5f79 6f75 2020 2020  ets_from_you    
 00000020: 2020 2020 2020 2020 2020 2020 2020 2020                  
 00000030: 2020 2020 2020 2020 2020 2020 2020 2020                  
