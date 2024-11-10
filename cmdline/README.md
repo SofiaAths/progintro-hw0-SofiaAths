@@ -54,6 +54,8 @@ No one will find this: grep_is_your_friend
 - ./byte5_program
 και η απάντηση ήταν:
 - Usage: ./byte5_program <SDI>
+Χρησιμοποιήσα την εντολή:
+- ./bytes5_program sdi2100283
 ## byte6: Αποσυμπίεση αρχείου 1 (unzip): 
 Χρησιμοποιήσα την εντολή:
 - unzip byte6.zip
