@@ -39,6 +39,7 @@ No one will find this: grep_is_your_friend
 και η απάντηση ήταν αυτή: 
 - And all the men and women merely players;
 - And all the men and women merely programmers;
+- Αυτό σημαίνει ότι η λέξη που άλλαξε είναι η λέξη "players", η οποία αντικαταστάθηκε με τη λέξη "programmers". Αυτή είναι η αλλαγή που έγινε στο αρχείο shakespeare.modified.txt σε σχέση με το αρχικό shakespeare.txt.
 ## byte4: Λαβύρινθος (find): 
 Χρησιμοποιήσα την εντολή find . -name "cup.txt" και η απάντηση ήταν: ./maze/left/right/8/cup.txt
 ## byte5: Compile and Run (gcc): 
