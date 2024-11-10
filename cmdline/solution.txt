@@ -1,5 +1,5 @@
 $ cat solution.txt
-byte0: i_wanna_be
+byte0: now_you_know_how_to_change_directories
 byte1: The output is not a manual page - look elsewhere
 byte2: grep "will find" *
 byte3: And all the men and women merely players;
