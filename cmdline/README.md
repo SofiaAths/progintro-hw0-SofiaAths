@@ -58,7 +58,8 @@ No one will find this: grep_is_your_friend
 - ./bytes5_program sdi2100283
 ## byte6: Αποσυμπίεση αρχείου 1 (unzip): 
 Χρησιμοποιήσα την εντολή:
-- unzip byte6.zip
+- unzip byte6.zip -d /tmp
+- cat /tmp/byte6.txt
 ## byte7: Αποσυμπίεση αρχείου 2 (tar): 
 Χρησιμοποιήσα την εντολή:
 - tar -xzvf byte7.tar.gz byte7.txt
