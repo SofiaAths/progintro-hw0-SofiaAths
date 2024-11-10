@@ -4,7 +4,7 @@ byte1: in_every_job_that_must_be_done_there_is_an_element_of_fun
 byte2: No one will find this: grep_is_your_friend
 byte3: programmers 
 byte4: you_just_found_the_triwizard_cup
-byte5: Usage: ./byte5_program <SDI>
+byte5: sdi2100283_1731272091_1696095545_85_74_146_79_62452_22
 byte6: unzip byte6.zip
 byte7: tar -xzvf byte7.tar.gz byte7.txt
 byte8: xxd carriage_return.txt
