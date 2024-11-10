@@ -1,7 +1,11 @@
 ## Απαντήσεις 2. Παιχνίδια με Κονσόλα (cmdline - 30 Μονάδες)
 ## byte0: Αλλάζοντας Φάκελο (cd)
-- Η απαντήση είναι: i_wanna_be 
-- Πώς το βρήκα: Με την εντολή ls
+Την απάντηση την βρήκα με τις παρακάτω εντολές:
+- ls
+- cd i_wanna_be
+-ls
+- find the_very_best
+- cat the_very_best/no_one_ever_was/to_catch_them_is_my_real_test/to_train_them_is_my_cause/i_will_travel_across_the_land/searching_far_and_wide/oh_my_goodness_another_folder/another_one/will_this_ever_stop/please/just/stop/you_re_there/no_just_kidding/if_you_got_this_far/anger_is_not_the_way/your_reward_is_here/treasure
 ## byte1: Μια Άγνωστη Εντολή
 - Η απαντήση είναι: The output is not a manual page - look elsewhere
 - Πώς το βρήκα: Με την εντολή supercalifragilisticexpialidocious
