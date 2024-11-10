@@ -2,54 +2,54 @@
 ## Παιχνίδια με Κονσόλα 
 
 ## byte0: Αλλάζοντας Φάκελο (cd)
-- Η απαντήση είναι: i_wanna_be 
-- Πώς το βρήκα: Με την εντολή ls
+Την απάντηση την βρήκα με τις παρακάτω εντολές:
+- ls
+- cd i_wanna_be
+- ls
+- find the_very_best
+- cat the_very_best/no_one_ever_was/to_catch_them_is_my_real_test/to_train_them_is_my_cause/i_will_travel_across_the_land/searching_far_and_wide/oh_my_goodness_another_folder/another_one/will_this_ever_stop/please/just/stop/you_re_there/no_just_kidding/if_you_got_this_far/anger_is_not_the_way/your_reward_is_here/treasure
+
 ## byte1: Μια Άγνωστη Εντολή
-- Η απαντήση είναι: The output is not a manual page - look elsewhere
-- Πώς το βρήκα: Με την εντολή supercalifragilisticexpialidocious
-## byte2: Τα Άπαντα του Shakespeare (grep): 
+Την απάντηση την βρήκα με τις παρακάτω εντολές:
+
+- man supercalifragilisticexpialidocious
+
+## byte2: Τα Άπαντα του Shakespeare (grep):
 Πάτησα την εντολή:
--  grep "will find" *
-και μου εμφάνισε:
--    He that sweetest rose will find
-    That draw his knives i' th' war. Well, I will find him;
-    If circumstances lead me, I will find
-    But I will find him when he lies asleep,
-    The Cardinal instantly will find employment,
-    In time will find their fit rewards. That seal
-    Cranmer will find a friend will not shrink from him.
-    If you do love me, you will find me out.
-    I will find you twenty lascivious turtles ere one chaste
-  FORD.  [Aside]  I will be patient; I will find out this.
-  THESEUS. She will find him by starlight. Here she comes; and her
-    when she is sated with his body, she will find the error of her
-    required conveniences, her delicate tenderness will find itself
-    Post you to London, and you will find it so;
-No one will find this: grep_is_your_friend
-  Fellow. I have a head, sir, that will find out logs
-    Can couch for fear but I will find them out;
-    will breed no terror in the youth: he will find it comes from a
-    The crown will find an heir. Great Alexander
-## byte3: Τα Άπαντα του Shakespeare Άλλαξαν (diff): 
-Χρησιμοποιήσα την εντολή: 
-- diff shakespeare.txt shakespeare.modified.txt
-και η απάντηση ήταν αυτή: 
+- grep "will find" * και μου εμφάνισε:
+He that sweetest rose will find That draw his knives i' th' war. Well, I will find him; If circumstances lead me, I will find But I will find him when he lies asleep, The Cardinal instantly will find employment, In time will find their fit rewards. That seal Cranmer will find a friend will not shrink from him. If you do love me, you will find me out. I will find you twenty lascivious turtles ere one chaste FORD. [Aside] I will be patient; I will find out this. THESEUS. She will find him by starlight. Here she comes; and her when she is sated with his body, she will find the error of her required conveniences, her delicate tenderness will find itself Post you to London, and you will find it so; No one will find this: grep_is_your_friend Fellow. I have a head, sir, that will find out logs Can couch for fear but I will find them out; will breed no terror in the youth: he will find it comes from a The crown will find an heir. Great Alexander
+
+## byte3: Τα Άπαντα του Shakespeare Άλλαξαν (diff):
+Χρησιμοποιήσα την εντολή:
+
+- diff shakespeare.txt shakespeare.modified.txt και η απάντηση ήταν αυτή:
 - And all the men and women merely players;
 - And all the men and women merely programmers;
-## byte4: Λαβύρινθος (find): 
-Χρησιμοποιήσα την εντολή find . -name "cup.txt" και η απάντηση ήταν: ./maze/left/right/8/cup.txt
-## byte5: Compile and Run (gcc): 
-Χρησιμοποιήσα τις εντολές: 
+- Αυτό σημαίνει ότι η λέξη που άλλαξε είναι η λέξη "players", η οποία αντικαταστάθηκε με τη λέξη "programmers". Αυτή είναι η αλλαγή που έγινε στο αρχείο shakespeare.modified.txt σε σχέση με το αρχικό shakespeare.txt.
+
+## byte4: Λαβύρινθος (find):
+Χρησιμοποιήσα τις εντολές:
+
+- find . -name "cup.txt"
+και η απάντηση ήταν: ./maze/left/right/8/cup.txt
+- cat ./maze/left/right/8/cup.txt
+
+## byte5: Compile and Run (gcc):
+Χρησιμοποιήσα τις εντολές:
+
 - mkdir /tmp/myfolder
 - cp byte5.c /tmp/myfolder
 - cd /tmp/myfolder
 - gcc byte5.c -o byte5_program
-- ./byte5_program
-και η απάντηση ήταν:
-- Usage: ./byte5_program <SDI>
-## byte6: Αποσυμπίεση αρχείου 1 (unzip): 
+- ./byte5_program και η απάντηση ήταν:
+- Usage: ./byte5_program Χρησιμοποιήσα την εντολή:
+- ./bytes5_program sdi2100283
+
+## byte6: Αποσυμπίεση αρχείου 1 (unzip):
 Χρησιμοποιήσα την εντολή:
-- unzip byte6.zip
+- unzip byte6.zip -d /tmp
+- cat /tmp/byte6.txt
+
 ## byte7: Αποσυμπίεση αρχείου 2 (tar): 
 Χρησιμοποιήσα την εντολή:
 - tar -xzvf byte7.tar.gz byte7.txt
