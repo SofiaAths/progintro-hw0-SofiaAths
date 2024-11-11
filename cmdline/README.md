@@ -3,9 +3,10 @@
 Την απάντηση την βρήκα με τις παρακάτω εντολές:
 - ls
 - cd i_wanna_be
--ls
+- ls
 - find the_very_best
 - cat the_very_best/no_one_ever_was/to_catch_them_is_my_real_test/to_train_them_is_my_cause/i_will_travel_across_the_land/searching_far_and_wide/oh_my_goodness_another_folder/another_one/will_this_ever_stop/please/just/stop/you_re_there/no_just_kidding/if_you_got_this_far/anger_is_not_the_way/your_reward_is_here/treasure
+
 ## byte1: Μια Άγνωστη Εντολή
 Την απάντηση την βρήκα με τις παρακάτω εντολές:
 - man supercalifragilisticexpialidocious
@@ -13,7 +14,9 @@
 ## byte2: Τα Άπαντα του Shakespeare (grep): 
 Πάτησα την εντολή:
 -  grep "will find" *
+
 και μου εμφάνισε:
+
 - He that sweetest rose will find
     That draw his knives i' th' war. Well, I will find him;
     If circumstances lead me, I will find
@@ -33,18 +36,23 @@ No one will find this: grep_is_your_friend
     Can couch for fear but I will find them out;
     will breed no terror in the youth: he will find it comes from a
     The crown will find an heir. Great Alexander
+
 ## byte3: Τα Άπαντα του Shakespeare Άλλαξαν (diff): 
 Χρησιμοποιήσα την εντολή: 
 - diff shakespeare.txt shakespeare.modified.txt
-και η απάντηση ήταν αυτή: 
+  
+και η απάντηση ήταν αυτή:
+
 - And all the men and women merely players;
 - And all the men and women merely programmers;
 - Αυτό σημαίνει ότι η λέξη που άλλαξε είναι η λέξη "players", η οποία αντικαταστάθηκε με τη λέξη "programmers". Αυτή είναι η αλλαγή που έγινε στο αρχείο shakespeare.modified.txt σε σχέση με το αρχικό shakespeare.txt.
+  
 ## byte4: Λαβύρινθος (find): 
 Χρησιμοποιήσα τις εντολές:
 - find . -name "cup.txt"
 - και η απάντηση ήταν: ./maze/left/right/8/cup.txt
 - cat ./maze/left/right/8/cup.txt
+  
 ## byte5: Compile and Run (gcc): 
 Χρησιμοποιήσα τις εντολές: 
 - mkdir /tmp/myfolder
@@ -52,12 +60,17 @@ No one will find this: grep_is_your_friend
 - cd /tmp/myfolder
 - gcc byte5.c -o byte5_program
 - ./byte5_program
+  
 και η απάντηση ήταν:
+
 - Usage: ./byte5_program <SDI>
+
 Χρησιμοποιήσα την εντολή:
+
 - ./bytes5_program sdi2100283
+
 ## byte6: Αποσυμπίεση αρχείου 1 (unzip): 
-Χρησιμοποιήσα την εντολή:
+Χρησιμοποιήσα τις εντολές:
 - unzip byte6.zip -d /tmp
 - cat /tmp/byte6.txt
   
@@ -73,7 +86,9 @@ No one will find this: grep_is_your_friend
 ## byte8: Carriage Return (xxd, pico, vim): 
 Χρησιμοποιήσα την εντολή:
 - xxd carriage_return.txt
-  και  η απάντηση ήταν: 
+
+  και  η απάντηση ήταν:
+  
 00000000: ffef bb20 6e6f 5f6d 6f72 655f 7365 6372  ... no_more_secr
 00000010: 6574 735f 6672 6f6d 5f79 6f75 2020 2020  ets_from_you    
 00000020: 2020 2020 2020 2020 2020 2020 2020 2020                  
