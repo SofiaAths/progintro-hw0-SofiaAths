@@ -60,6 +60,7 @@ No one will find this: grep_is_your_friend
 Χρησιμοποιήσα την εντολή:
 - unzip byte6.zip -d /tmp
 - cat /tmp/byte6.txt
+  
 ## byte7: Αποσυμπίεση αρχείου 2 (tar): 
 Χρησιμοποιήσα τις εντολές:
 - tar -xzvf byte7.tar.gz byte7.txt
@@ -83,20 +84,17 @@ No one will find this: grep_is_your_friend
 00000070: 7665 2061 6c6f 6e67 2e20 2020 2020 2020  ve along.       
 00000080: 2020 2020 2020 2020 2020 2020 2020 2020                  
 00000090: 2020 2020 2020 2020 2020 2020 2020 2020                  
-000000a0: 2020 2020 200a 
+000000a0: 2020 2020 200a
+  
 ## byte9: Ένα Περίεργο Όνομα (cat): 
-Χρησιμοποιήσα τις εντολές: 
-- ls
--  /home/byte9
-  και η απάντηση ήταν:
--  -bash: /home/byte9: Is a directory
+Χρησιμοποιήσα την εντολή: 
+- cat /home/byte9/-
+
 ## byte10: Το 10ο Όνομα (sort, head): 
 Χρησιμοποιήσα την εντολή: 
 - sort names.txt | head -n 10 | tail -n 1
-και η απάντηση ήταν:
-- Adorne
+  
 ## byte11: Επιλογές Ονόματος (sort, uniq): 
 Χρησιμοποιήσα την εντολή:
 - sort births.txt | uniq -c | sort -nr | head -n 1
-  και η απάντηση ήταν:
-- 9 Kelley
+
