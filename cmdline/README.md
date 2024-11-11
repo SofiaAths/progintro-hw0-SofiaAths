@@ -61,8 +61,14 @@ No one will find this: grep_is_your_friend
 - unzip byte6.zip -d /tmp
 - cat /tmp/byte6.txt
 ## byte7: Αποσυμπίεση αρχείου 2 (tar): 
-Χρησιμοποιήσα την εντολή:
+Χρησιμοποιήσα τις εντολές:
 - tar -xzvf byte7.tar.gz byte7.txt
+- mkdir /tmp/mytempfolder
+- cp byte7.tar.gz /tmp/mytempfolder
+- cd /tmp/mytempfolder
+- tar -xzvf byte7.tar.gz
+- cat byte7.txt
+
 ## byte8: Carriage Return (xxd, pico, vim): 
 Χρησιμοποιήσα την εντολή:
 - xxd carriage_return.txt
