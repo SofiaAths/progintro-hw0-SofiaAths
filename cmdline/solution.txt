@@ -7,7 +7,7 @@ byte4: you_just_found_the_triwizard_cup
 byte5: sdi2100283_1731272091_1696095545_85_74_146_79_62452_22
 byte6: unzipping_was_never_so_easy
 byte7: tar_jokes_dont_stick
-byte8: xxd carriage_return.txt
-byte9: -bash: /home/byte9: Is a directory
+byte8: no_more_secrets_from_you
+byte9:
 byte10: Adorne
 byte11: 9 Kelley
